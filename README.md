@@ -6,7 +6,9 @@ This will cretae an ephemeral dev environment for testing only. This uses the My
 
 	https://github.com/jamf/jamfpro
 
-	```docker pull jamfdevops/jamfpro:0.0.13```
+	```
+	docker pull jamfdevops/jamfpro:0.0.13
+	```
 
 2. Download the current Jamf Pro ROOT.war collection to the same directory as the Dockerfile.
 
