@@ -22,7 +22,7 @@ Create ephemeral dev environment for testing. This uses the MySQL root user as t
 
 4. Start containers on their own bridged network. 
 
-	*Jamf Pro does not support the latest MySQL version 8.x default authentication method. We need to change  the default authentication plug-in to mysql_native_password or Legacy Password Encryption method using my.cnf bind mount*
+	> Jamf Pro does not support the latest MySQL version 8.x default authentication method. We need to change  the default authentication plug-in to mysql_native_password or Legacy Password Encryption method using my.cnf bind mount
 	```
 	docker compose up --detach
 	```
