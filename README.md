@@ -4,10 +4,10 @@ Create ephemeral dev environment for testing. This uses the MySQL root user as t
 
 > Jamf Pro does not support the latest MySQL version 8.x default authentication method. We need to change the default to mysql_native_password or Legacy Password Encryption method using my.cnf bind mount.
 
-Or alternatively alter the user after database creation:
-```
-alter user 'jamfsoftware'@'localhost' identified with mysql_native_password by 'jamfsw03';
-```
+	Or alternatively alter the user after database creation:
+	```
+	alter user 'jamfsoftware'@'localhost' identified with mysql_native_password by 'jamfsw03';
+	```
 
 1. Use the latest Jamf Pro Tomcat image tag as base image. 
 
